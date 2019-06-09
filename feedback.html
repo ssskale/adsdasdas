@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="utf-8" content="text/html" http-equiv="Content-Type">
+	<link rel="stylesheet" type="text/css" href="style6.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<title>First test site</title>
+</head>
+<body>
+	<div id="page">
+	 <header>
+		<a href="index6.html" title="to Home Page" id="main">
+			<img src="images/logo.png" id="logopic"></a> 
+		<span id="contact"><a href="about.html" title="Information about the site">About us</a></span> 
+		<span class="check">
+			<span id="contact"><a href="checkin.html" title="Create an account">Check in</a></span>
+			<span id="contact"><a href="signin.html" title="Enter your account">Sign in</a></span>
+		</span>
+		<div id="search-box">
+			<input type="search" placeholder="Search" class="field" name="">
+			<a class="search-btn" href="#">
+				<i class="fas fa-search"></i>
+			</a>
+	 </header>
+	</div>
+
+	<div class="clear"> <br/> </div> 
+	<center>
+		<div id="menu">Sections <hr/></div> 
+		<div id="menu-links">
+			<a href="about.html">About us</a>
+			<a href="feedback.html">Feedback</a>
+			<a href="additions.html">Additions</a>
+			<a href="watch.html">Watch Online</a>
+		</div>
+	</center>
+
+	<div id="wrapper">
+		<div id="articles">
+			<form action="" method="post" class="form">
+				<div id="picture"><img src="images/Panda_png.png" ></div>
+				<label for="subject">Message theme</label>
+				<input type="text" id="subject" placeholder="Theme" >
+				<label for="email">Enter your email</label>
+				<input type="email" id="email" placeholder="adress@example.com">
+				<label for="name">Enter your name</label>
+				<input type="text" id="name" placeholder="Name"  >
+				<label for="message">Enter your message</label>
+				<textarea placeholder="Message" id="message" name="message"></textarea> 
+				<input type="submit" id="send" name="send" value="Send"> <i class="fas fa-paper-plane" id="plane"></i>
+			</form>
+		</div>
+	</div>
+	
+
+	<footer>
+		<span class="bottom">All rights reserved &copy; 2019</span>
+		<span id="button"> <i class="fas fa-question"></i> Help Buttons 
+			<ul>
+				<li><input class="help" type="button" name="Log out" value="Log out">  <i class="fas fa-sign-out-alt" id="icon"></i></li>
+
+				<li><input class="help" type="button" name="Settings" value="Settings"> <i class="fas fa-cogs" id="icon"></i></li>
+			</ul>
+		</span>
+	</footer>
+</body>
+</html>
